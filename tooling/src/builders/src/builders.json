@@ -1,0 +1,10 @@
+{
+  "$schema": "@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "xliffmerge": {
+      "implementation": "./xliffmergebuilder",
+      "schema": "./xliffmergebuilder/schema.json",
+      "description": "Builder to run xliffmerge after the ng xi18n build"
+    }
+  }
+}
